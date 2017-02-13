@@ -119,11 +119,12 @@ namespace Microsoft.AspNet.SignalR.Client.Transports
         /// </summary>
         private void PrepareRequest()
         {
+#if CLIENT_NET45
             if (_connection.Certificates != null)
             {
                 AddClientCerts(_connection.Certificates);
             }
-
+#endif
             if (_connection.CookieContainer != null)
             {
                 CookieContainer = _connection.CookieContainer;

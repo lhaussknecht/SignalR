@@ -5,7 +5,7 @@ using System;
 using System.Diagnostics.CodeAnalysis;
 using System.IO;
 using System.Net;
-#if !NET4
+#if !NET4 || MONO
 using System.Net.Http;
 #endif
 using Microsoft.AspNet.SignalR.Infrastructure;
