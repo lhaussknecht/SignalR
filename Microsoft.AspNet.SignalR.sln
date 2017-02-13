@@ -116,7 +116,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.AspNet.SignalR.Cl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.AspNet.SignalR.ServiceBus3", "src\Microsoft.AspNet.SignalR.ServiceBus3\Microsoft.AspNet.SignalR.ServiceBus3.csproj", "{FCCF5D11-3A6E-42B2-8F69-CBD67C07BDED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.AspNet.SignalR.Client.MonoDroid", "Microsoft.AspNet.SignalR.Client.MonoDroid\Microsoft.AspNet.SignalR.Client.MonoDroid.csproj", "{3B87209B-A715-4B7B-96B2-0773E03DCE07}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.AspNet.SignalR.Client.MonoDroid", "src\Microsoft.AspNet.SignalR.Client.MonoDroid\Microsoft.AspNet.SignalR.Client.MonoDroid.csproj", "{3B87209B-A715-4B7B-96B2-0773E03DCE07}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
